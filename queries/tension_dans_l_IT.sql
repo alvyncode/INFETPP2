@@ -1,0 +1,2 @@
+SELECT annee, tension_ensemble_des_métiers,tension_ingenieurs_de_l_informatique,tension_technicien_informatique
+FROM tension_dans_le_secteur_de_l_it
