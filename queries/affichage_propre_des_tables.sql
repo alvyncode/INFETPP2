@@ -4,7 +4,7 @@ SELECT
     n.annee,
     n.nombre_total,
     a.age_moyen_ensemble
-FROM nombre_de_retraite_hf_de_2002_a_2022 AS n
+FROM nombre_de_retraite_hf_de_2002_a_2022_en_milliers AS n
 INNER JOIN age_moyen_de_depart_en_retraite AS a
     ON a.annee = n.age_moyen_de_la_retraite_annee;
 
